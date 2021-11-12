@@ -1,0 +1,27 @@
+{
+  "name": "@kovalenko/is-cron",
+  "version": "1.0.0",
+  "description": "class validator decorator",
+  "main": "index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "class-validator",
+    "is-cron"
+  ],
+  "author": "kovalenko",
+  "license": "MIT",
+  "dependencies": {
+    "cron-validate": "^1.4.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=8",
+    "@nestjs/core": ">=8",
+    "class-transformer": ">=0.4.0",
+    "class-validator": ">=0.13.1"
+  }
+}
