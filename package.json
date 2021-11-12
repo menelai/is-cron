@@ -1,12 +1,17 @@
 {
   "name": "@kovalenko/is-cron",
-  "version": "1.0.0",
-  "description": "class validator decorator",
-  "main": "index.ts",
+  "version": "1.0.4",
+  "description": "Class validator decorator for crontab config",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=12"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -23,5 +28,13 @@
     "@nestjs/core": ">=8",
     "class-transformer": ">=0.4.0",
     "class-validator": ">=0.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menelai/is-cron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/menelai/is-cron/issues"
+  },
+  "homepage": "https://github.com/menelai/is-cron#readme"
 }

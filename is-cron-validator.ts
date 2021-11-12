@@ -5,7 +5,7 @@ import cron from 'cron-validate';
 export class IsCronValidator implements ValidatorConstraintInterface {
 
   validate(id: string, args: ValidationArguments): boolean {
-    return cron(id).isValid();
+    return cron(id ?? '').isValid();
   }
 
   defaultMessage(validationArguments?: ValidationArguments): string {
