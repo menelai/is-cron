@@ -817,13 +817,13 @@
         "affectsGlobalScope": false
       },
       "../is-cron-validator.ts": {
-        "version": "aaf9e4db34a06d6ce17daf7440d8a1c179d8668aaed4d510f34ffb0cf4b81fbd",
+        "version": "8bfbc55924aa826e20b3bba254713897eef8c29fbd2d98ca2a627521f6c266fa",
         "signature": "5e9f7b4b947c0893776611981beab5370da34cafc16fd36d0e5aa1581cba6b5e",
         "affectsGlobalScope": false
       },
       "../is-cron.ts": {
-        "version": "051fcaddf5f2acab82e97dca6cf088925de852b5bdb3dafd8fae33df3cefc004",
-        "signature": "1fccf8489e0a9f33775f980a59b51038d30ade731930a41a6600ba29e4f7361e",
+        "version": "116d16b2b612a4186ada1ab09c9fd41b868e53cf5ac6bae7fddc1d232a0e29e1",
+        "signature": "3eec1d371f5c42a8fba55e931815ec68dd3787ee160f083cfd031db5f416352a",
         "affectsGlobalScope": false
       },
       "../index.ts": {
@@ -922,7 +922,8 @@
       ],
       "../is-cron.ts": [
         "../is-cron-validator.ts",
-        "../node_modules/class-validator/types/index.d.ts"
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/cron-validate/lib/types.d.ts"
       ],
       "../node_modules/@types/lodash/common/array.d.ts": [
         "../node_modules/@types/lodash/common/collection.d.ts",
@@ -1611,7 +1612,8 @@
         "../node_modules/class-validator/types/index.d.ts"
       ],
       "../is-cron.ts": [
-        "../node_modules/class-validator/types/index.d.ts"
+        "../node_modules/class-validator/types/index.d.ts",
+        "../node_modules/cron-validate/lib/types.d.ts"
       ],
       "../node_modules/@types/lodash/common/array.d.ts": [
         "../node_modules/@types/lodash/common/collection.d.ts",

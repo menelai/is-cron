@@ -14,9 +14,18 @@ npm install @kovalenko/is-cron
 import {IsCron} from '@kovalenko/is-cron';
 
 export class Foo {
-  
+
   @IsCron()
   bar: string;
+
+  @IsCron({useSeconds: true})
+  baz: string;
+  
+  @IsCron({useSeconds: true}, {each: true})
+  joj: string[];
+
+  @IsCron({each: true})
+  kek: string[];
 }
 
 ```

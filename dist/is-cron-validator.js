@@ -14,7 +14,7 @@ const class_validator_1 = require("class-validator");
 const cron_validate_1 = __importDefault(require("cron-validate"));
 let IsCronValidator = class IsCronValidator {
     validate(id, args) {
-        return cron_validate_1.default(id !== null && id !== void 0 ? id : '').isValid();
+        return cron_validate_1.default(id !== null && id !== void 0 ? id : '', args.constraints[0]).isValid();
     }
     defaultMessage(validationArguments) {
         return class_validator_1.buildMessage(eachPrefix => eachPrefix + `$property must be a Valid Cron`)();
