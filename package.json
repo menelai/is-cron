@@ -12,11 +12,18 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "class-validator",
     "is-cron"
+  ],
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "author": "kovalenko",
   "license": "MIT",
@@ -36,5 +43,12 @@
   "bugs": {
     "url": "https://github.com/menelai/is-cron/issues"
   },
-  "homepage": "https://github.com/menelai/is-cron#readme"
+  "homepage": "https://github.com/menelai/is-cron#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "semantic-release": "^19.0.2"
+  }
 }
