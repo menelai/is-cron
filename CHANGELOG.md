@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/menelai/is-cron/compare/v1.0.9...v1.0.10) (2022-06-02)
+
+
+### Bug Fixes
+
+* ci ([94e79a2](https://github.com/menelai/is-cron/commit/94e79a28372f4063d75542e46f4797ed41a72b3a))
+
 # 1.0.0 (2022-06-02)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@kovalenko/is-cron",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Class validator decorator for crontab config",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
